@@ -51,7 +51,7 @@ const ViewProduct = () => {
                     <div className="pd_data_rapper">
 
                         <span className='pd_category'>Category: <span>{productData?.category}</span></span>
-                        <span className='pd_brand'>brand: <span>{productData?.brand}</span></span>
+                        <span className='pd_brand'>Brand: <span>{productData?.brand}</span></span>
                         <p className='pd_title'>{productData?.title}</p>
                         <hr />
                         <p className='pd_price'>${productData?.price}</p>
