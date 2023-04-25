@@ -1,0 +1,101 @@
+.card_container {
+  background-color: white;
+  border-radius: 10px;
+  max-width: 300px;
+  transition: all 0.3s;
+  &:hover{
+    transform: scale(1.02);
+  }
+  .card_wrapper {
+    .image_wrapper {
+      position: relative;
+      img {
+        width: 100%;
+        height: 200px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+      span {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        border-radius: 50px;
+        padding: 2px 10px;
+      }
+    }
+
+    .body_wrapper {
+      position: relative;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+
+      .pd_category {
+        background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+        color: white;
+        font-size: 10px;
+        padding: 3px 5px;
+        border-radius: 50px;
+        position: absolute;
+        top: -35px;
+        right: 5px;
+      }
+      .pd_title {
+        color: rgb(34, 32, 32);
+        font-size: 18px;
+      }
+      .pd_desc {
+        color: rgb(148, 146, 146);
+        font-size: 14px;
+      }
+
+      hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        border-top: 1px solid rgb(195, 195, 233);
+      }
+      .price_wrapper {
+        display: flex;
+        justify-content: space-between;
+        .pd_price {
+          //   background-color: #bbc2e2;
+          //   padding: 2px 5px;
+          //   border-radius: 50px;
+
+          color: #fc5c7d;
+          font-size: 14px;
+        }
+        .pd_discount {
+          //   background-color: rgb(247, 192, 203);
+          //   padding: 2px 5px;
+          //   border-radius: 50px;
+          color: #6a82fb;
+          font-size: 14px;
+        }
+      }
+
+      .btn_wrapper {
+        margin: auto;
+
+        button {
+          width: 100%;
+          background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+          border: transparent;
+          outline: none;
+          color: white;
+          font-size: 14px;
+          padding: 5px 10px;
+          border-radius: 50px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

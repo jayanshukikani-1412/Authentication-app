@@ -1,0 +1,32 @@
+.navbar-section {
+  margin: -20px;
+  background-color: rgb(59, 58, 58);
+  padding: 10px 0px;
+}
+.navbar-section .navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.navbar-section .navbar-container .logo-wrapper h2 {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-section .navbar-container .auth-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.navbar-section .navbar-container .auth-wrapper .navbar_link {
+  padding: 5px 15px;
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  transition: all 0.3s;
+}
+.navbar-section .navbar-container .auth-wrapper .navbar_link:hover {
+  color: white;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}/*# sourceMappingURL=Navbar.css.map */

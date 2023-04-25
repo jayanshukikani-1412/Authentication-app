@@ -1,0 +1,26 @@
+.categories_container {
+  margin-top: 70px;
+}
+.categories_container .categories_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.categories_container .categories_wrapper .categories_item {
+  background-color: rgb(43, 104, 218);
+  border-radius: 4px;
+  padding: 5px 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.categories_container .categories_wrapper .categories_item:hover {
+  background-color: rgb(255, 255, 255);
+}
+.categories_container .categories_wrapper .categories_item:hover span {
+  color: rgb(54, 55, 58);
+}
+.categories_container .categories_wrapper .categories_item span {
+  color: white;
+  font-size: 18px;
+}/*# sourceMappingURL=Categories.css.map */

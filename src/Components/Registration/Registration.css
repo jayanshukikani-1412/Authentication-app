@@ -1,0 +1,113 @@
+:root {
+  --blue-body: #1f87bc;
+  --white: #ffffff;
+  --black: #000000;
+  --light-grey: #d3d3d3;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+input:focus {
+  background-color: transparent;
+}
+
+.reg_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.reg_section .reg_conatiner {
+  width: 30%;
+  background-color: var(--white);
+  padding: 50px;
+  border-radius: 10px;
+}
+.reg_section .reg_conatiner form {
+  display: flex;
+  flex-direction: column;
+}
+.reg_section .reg_conatiner form h2 {
+  text-align: center;
+  font-weight: normal;
+  color: var(--black);
+  font-size: 30px;
+}
+.reg_section .reg_conatiner form .reg_wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reg_section .reg_conatiner form .reg_wrapper .user_name_wrapper {
+  padding: 10px 20px;
+  display: flex;
+  background-color: var(--light-grey);
+  border-radius: 4px;
+}
+.reg_section .reg_conatiner form .reg_wrapper .user_name_wrapper label {
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+.reg_section .reg_conatiner form .reg_wrapper .user_email_wrapper {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: var(--light-grey);
+  border-radius: 4px;
+}
+.reg_section .reg_conatiner form .reg_wrapper .user_email_wrapper label {
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+.reg_section .reg_conatiner form .reg_wrapper .user_pwd_wrapper {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: var(--light-grey);
+  border-radius: 4px;
+}
+.reg_section .reg_conatiner form .reg_wrapper .user_pwd_wrapper label {
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+.reg_section .reg_conatiner form .reg_submit_btn {
+  margin-top: 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  cursor: pointer;
+}
+.reg_section .reg_conatiner form hr {
+  margin-top: 30px;
+  border: 1px solid var(--light-grey);
+  width: 100%;
+}
+.reg_section .reg_conatiner .line {
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.reg_section .reg_conatiner .login_btn {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  cursor: pointer;
+}/*# sourceMappingURL=Registration.css.map */
